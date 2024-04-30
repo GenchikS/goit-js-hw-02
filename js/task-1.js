@@ -1,7 +1,7 @@
 function makeTransaction(quantity, pricePerDroid, customerCredits){
-    // const quantity = 0; // кількість
-    // const pricePerDroid = 0; //ціна замовлення
-    // const customerCredits = 0; // сума коштів на рахунку
+    // const quantity; // кількість
+    // const pricePer; //ціна замовлення
+    // const customer; // сума коштів на рахунку
     const totalPrice = quantity * pricePerDroid;
     if (customerCredits >= totalPrice) {
         return `You ordered ${quantity} droids worth ${totalPrice} credits!`;
